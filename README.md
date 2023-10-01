@@ -2,21 +2,17 @@
 
 This project is a Todo List web application with user authentication features. Users can sign up for an account, log in, and manage their tasks. Instead of using a backend server and database, local storage is used to simulate user accounts.
 
-## Assignment Description
-
-In this assignment, you will create a Todo List web application with user authentication features. Users should be able to sign up for an account, log in, and manage their tasks. Instead of a backend server and database, you can use local storage to simulate user accounts.
-
-### Requirements
+### Features
 
 1. **User Authentication**
-   - Implement user registration (signup) and login functionality.
+   - Implemented user registration (signup) and login functionality.
    - Users can sign up with a username and password.
    - Users can log in with their credentials.
-   - Use forms for both registration and login.
+   - Used forms for both registration and login.
 
 2. **Authentication State**
    - Manage user authentication state using React state.
-   - Implement protected routes to ensure that only authenticated users can access certain parts of the application (e.g., the todo list).
+   - Implemented protected routes to ensure that only authenticated users can access certain parts of the application (e.g., the todo list).
 
 3. **Task Management**
    - Users can create, mark as completed, and delete tasks.
