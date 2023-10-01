@@ -1,0 +1,13 @@
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button-1 {
+  box-shadow: none;
+}
+
+input::placeholder {
+  text-align: center;
+}
