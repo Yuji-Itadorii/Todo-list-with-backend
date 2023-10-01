@@ -6,8 +6,8 @@ const connectDatabase = require("./config/database");
 const bcrypt = require("bcrypt");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
-const User = require("./models/User");
-const Todo = require("./models/Todo");
+const User = require("./models/user");
+const Todo = require("./models/todo");
 
 const app = express();
 
